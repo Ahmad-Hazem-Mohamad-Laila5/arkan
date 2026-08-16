@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "/team-1.jpg",
+    "name": "Olivia Peterson",
+    "role": "Interior Desinger",
+    "exp": "5 Years",
+    "number": "+20 10 508451080",
+    "desc": "Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet."
+  },
+  {
+    "id": 2,
+    "image": "/team-2.jpg",
+    "name": "Olivia Peterson",
+    "role": "Interior Desinger",
+    "exp": "5 Years",
+    "number": "+20 10 508451080",
+    "desc": "Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet."
+  },
+  {
+    "id": 3,
+    "image": "/team-3.jpg",
+    "name": "Olivia Peterson",
+    "role": "Interior Desinger",
+    "exp": "5 Years",
+    "number": "+20 10 508451080",
+    "desc": "Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet."
+  },
+  {
+    "id": 4,
+    "image": "/team-4.jpg",
+    "name": "Olivia Peterson",
+    "role": "Interior Desinger",
+    "exp": "5 Years",
+    "number": "+20 10 508451080",
+    "desc": "Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet."
+  },
+  {
+    "id": 5,
+    "image": "/team-5.jpg",
+    "name": "Olivia Peterson",
+    "role": "Interior Desinger",
+    "exp": "5 Years",
+    "number": "+20 10 508451080",
+    "desc": "Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet."
+  }
+]

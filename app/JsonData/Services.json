@@ -1,0 +1,32 @@
+[
+  {
+    "id": "01",
+    "title": "Residential Interior Design",
+    "description": "Tailored design services for private homes, including room makeovers, full-home transformations, and curated décor planning that creates elegant and deeply personal living spaces.",
+    "image": "/service-1.jpg"
+  },
+  {
+    "id": "02",
+    "title": "Commercial Space Design",
+    "description": "Strategic interiors for offices, retail stores, and business environments that elevate brand presence, improve movement, and create memorable user experiences.",
+    "image": "/service-2.jpg"
+  },
+  {
+    "id": "03",
+    "title": "Luxury Furniture Styling",
+    "description": "Curated furniture and styling selections that bring harmony, warmth, and timeless sophistication to every room through balanced composition and material richness.",
+    "image": "/service-3.jpg"
+  },
+  {
+    "id": "04",
+    "title": "Renovation & Space Planning",
+    "description": "Detailed layout planning and renovation support that transforms outdated interiors into functional, refined, and modern spaces with stronger flow and usability.",
+    "image": "/service-4.jpg"
+  },
+  {
+    "id": "05",
+    "title": "Lighting & Décor Consultation",
+    "description": "Thoughtful lighting strategies and décor consultation designed to enhance mood, comfort, and visual depth while revealing the strongest qualities of a space.",
+    "image": "/service-5.jpg"
+  }
+]

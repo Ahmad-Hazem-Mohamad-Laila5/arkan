@@ -1,0 +1,32 @@
+[
+  {
+    "id": "01",
+    "question": "What interior design services do you offer?",
+    "answer": "Our interior design services cover everything you need to create a stunning and functional space. From initial concept development and space planning to selecting color schemes, furniture, and custom designs, we bring your vision to life."
+  },
+  {
+    "id": "02",
+    "question": "Do you work on both residential and commercial projects?",
+    "answer": "Yes. We design private homes, apartments, offices, retail spaces, hospitality interiors, and mixed-use environments, each tailored to its unique function and identity."
+  },
+  {
+    "id": "03",
+    "question": "How long does a typical project take?",
+    "answer": "Timelines vary based on project scale and complexity. A single-room refresh may take a few weeks, while full-home or commercial projects can span several months. We define clear milestones at the start of every engagement."
+  },
+  {
+    "id": "04",
+    "question": "Can you work with my existing furniture and décor?",
+    "answer": "Absolutely. We can re-style your current pieces, incorporate new items selectively, and suggest strategic updates that elevate the overall look and feel without starting from scratch."
+  },
+  {
+    "id": "05",
+    "question": "Do you provide on-site visits or virtual consultations?",
+    "answer": "We offer both. Depending on your location and preferences, we can schedule studio meetings, on-site visits, or detailed virtual sessions to review concepts and progress."
+  },
+  {
+    "id": "06",
+    "question": "How is pricing determined for design services?",
+    "answer": "Pricing is based on project scope, space size, and level of customization. After an initial consultation, we provide a tailored proposal outlining fees, phases, and deliverables."
+  }
+]

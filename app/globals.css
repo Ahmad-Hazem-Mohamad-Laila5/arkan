@@ -1,26 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Outfit:wght@100..900&display=swap");
 @import "tailwindcss";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import "remixicon/fonts/remixicon.css";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  --prim: #caa05c;
+  --text: #1c1c1d;
+  --body: #f6f6f6;
+  --white: #fff;
+  --black: #000;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --CalSans: "Cal Sans", "sans-serif";
+  --GolosText: "Golos Text", "sans-serif";
+  --Audiowide: "Audiowide", "sans-serif";
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --transition-regular: 0.3s;
+  --transition-slow: 0.6s;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--body);
+}
+
+.CalSans {
+  font-family: var(--CalSans);
+}
+.GolosText {
+  font-family: var(--GolosText);
+}
+.Audiowide {
+  font-family: var(--Audiowide);
+}
+
+.about {
+  background-image: url(../public/About-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+.title {
+  position: relative;
+}
+
+.title:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(131, 131, 131, 0.3);
+}
+.title:before {
+  content: "";
+  position: absolute;
+  top: -20%;
+  right: 10%;
+  width: 1px;
+  height: 250px;
+  background-color: rgba(131, 131, 131, 0.3);
+}
+.title-span {
+  position: relative;
+}
+.title-span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 9%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: var(--prim);
+}
+
+.Paralex-wrap {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  will-change: transform, opacity;
+}
+
+.Paralex-wrap:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: -1;
+}
+
+.Paralex-content {
+  height: 80vh;
+}
+
+.service-img {
+  transform: scale(0.9);
+  opacity: 0;
+  transition:
+    transform 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 0.45s ease;
+}
+
+.group:hover .service-img {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.group:hover h3 {
+  color: var(--prim);
+}
+
+.group:hover .service-icon {
+  transform: rotate(45deg) scale(1.04);
+  background-color: var(--prim);
+  color: var(--white);
+  border-color: transparent;
+}
+
+.expertise-slider {
+  position: absolute;
+  bottom: -20%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 70%;
+  height: 700px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.expertise-slider img {
+  animation: Anim-scale 4s forwards linear;
+  border-radius: 20px;
+}
+.pricing-wrap {
+  background-image: url(../public/pricing-banner.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.pricing-wrap:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #000 10%, #00000000);
+  z-index: -1;
+}
+
+.pricing-card {
+  position: relative;
+  z-index: 1;
+}
+.pricing-card:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../public/pricing-card-bg.png);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.testimonial-swiper .swiper-pagination {
+  text-align: left;
+}
+
+.testimonial-swiper .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: rgba(0, 0, 0, 0.18);
+  opacity: 1;
+}
+
+.testimonial-swiper .swiper-pagination-bullet-active {
+  width: 28px;
+  border-radius: 999px;
+  background: var(--prim);
+}
+.section-bg {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-image: url(../public/page-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+
+
+.project-gallery-swiper {
+  overflow: hidden;
+}
+
+.project-gallery-swiper .swiper-wrapper {
+  align-items: stretch;
+}
+
+.project-gallery-swiper .swiper-slide {
+  height: auto;
+}
+@keyframes Anim-scale {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@media (max-width: 1024px) {
+  .service-img {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@media (max-width: 991px) {
+  .pricing-wrap {
+    height: 300px;
+  }
+}
+@media (max-width: 767px) {
+  .testimonial-swiper .swiper-pagination {
+    text-align: center;
+  }
 }

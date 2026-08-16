@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "/Project-1.jpg",
+    "tags": ["Residential"],
+    "title": "Industerial elegance condo",
+    "location": "New York",
+    "date": "14/01/2025"
+  },
+  {
+    "id": 2,
+    "image": "/Project-2.jpg",
+    "tags": ["Residential"],
+    "title": "Industerial elegance condo",
+    "location": "New York",
+    "date": "14/01/2025"
+  },
+  {
+    "id": 3,
+    "image": "/Project-3.jpg",
+    "tags": ["Residential"],
+    "title": "Industerial elegance condo",
+    "location": "New York",
+    "date": "14/01/2025"
+  }
+]
